@@ -3,10 +3,10 @@ TEAM_NAME                   =       "Epoch"
 
     
 # These are algorithm parameters. You need to change this
-DELTA                       =      0.1              #   How much should the epsilon shift by in every game
+DELTA                       =      -0.0005            #   How much should the epsilon shift by in every game
 LR                          =      0.05             #   This is the learning rate. High learning rate means faster learning"                     
 GAMMA                       =      0.9              #   gamma = discount factor. High gamma value means focus on future rewards "
-STARTING_EPSILON            =      0
+STARTING_EPSILON            =      1
 
 #These are the reward parameters. You need to change this. Refer to the guide to know what each means in detail
 DESTROY_SOFTBLOCK           =      0.5      
